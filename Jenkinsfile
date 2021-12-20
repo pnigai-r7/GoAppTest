@@ -1,23 +1,3 @@
-pipeline {
-    agent {
-	label 'agent'
-          }  
-
-    stages {
-        stage('Build') {
-            steps {
-                echo 'Building..'
-            }
-        }
-        stage('Test') {
-            steps {
-                echo 'Testing..'
-            }
-        }
-        stage('Deploy') {
-            steps {
-                echo 'Deploying....'
-            }
-        }
-    }
-}
+#!/usr/bin/env groovy
+@Library('alcide-jenkins@pavel_shared') _
+paveltest()
