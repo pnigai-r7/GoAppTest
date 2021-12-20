@@ -1,3 +1,3 @@
 #!/usr/bin/env groovy
-@Library('alcide-jenkins@pavel_shared')_
+@Library('alcide-jenkins@pavel_shared') _
 paveltest()
